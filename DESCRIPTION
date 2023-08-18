@@ -1,0 +1,32 @@
+Package: Mix3Trees
+Title: Mixed-effect model with 3 trees
+Version: 0.1.0
+Date: 2023-26-06
+Description: Mix3Trees package provides functions to fit mixed-effect regression models 
+             with two components: a linear component and a non-linear component consisting in 
+            three regression trees.  The package also offers methods for pruning the fitted 3Trees models.
+URL: https://github.com/agottard/Mix3Trees/            
+Author: Anna Gottard <anna.gottard@unifi.it>
+Maintainer: Anna Gottard <anna.gottard@unifi.it>
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Data:
+  mydat
+Depends: 
+    R (>= 4.0.0),
+    lme4
+Imports: 
+    stats,
+    methods,
+    stringr,
+    combinat,
+    rpart,
+    rockchalk,
+    PTXQC,
+    treeClust,
+    rpart.plot
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
