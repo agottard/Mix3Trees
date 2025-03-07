@@ -31,7 +31,7 @@
   J <- length(mygr)
   set.seed(seed)
  
-  id.J <- sort(sample(mygr, J2, replace=FALSE))
+  id.J <- sort(sample(mygr, round(J/2), replace=FALSE))
   id.J2 <- setdiff(mygr, id.J)
   
   ### Prepare data
